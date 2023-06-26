@@ -1,0 +1,30 @@
+.search_page_wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.search_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+
+  h1 {
+    font-size: 36px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+    }
+  }
+  .search_block_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

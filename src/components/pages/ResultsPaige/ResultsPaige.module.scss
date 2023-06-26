@@ -1,0 +1,134 @@
+.search_page_wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.result_page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // justify-content: center;
+
+  height: 100%;
+
+  h1 {
+    font-size: 28px;
+  }
+  .search_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    .liked_input_wrapper {
+      width: 100%;
+      position: relative;
+
+      .like {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+
+        right: 16px;
+        top: 0;
+
+        svg {
+          cursor: pointer;
+        }
+      }
+      .saved_like {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+
+        right: 16px;
+        top: 0;
+
+        svg {
+          fill: #c5e4f9;
+          cursor: pointer;
+        }
+
+        div {
+          position: absolute;
+
+          top: 90%;
+          left: -110px;
+          display: flex;
+          flex-direction: column;
+
+          width: 220px;
+
+          background: #ffffff;
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          border-radius: 10px;
+
+          padding: 15px;
+
+          span {
+            line-height: 24px;
+            margin-bottom: 15px;
+            color: #27272760;
+          }
+
+          a {
+            color: #1390e5;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.control_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  width: 100%;
+
+  @media (max-width: 786px) {
+    margin-bottom: 0;
+
+    & + span {
+      margin-bottom: 25px;
+      color: rgba(23, 23, 25, 0.3);
+    }
+  }
+
+  .list_type {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    div {
+      cursor: pointer;
+
+      &:last-child {
+        margin-left: 15px;
+      }
+    }
+
+    .active {
+      svg {
+        g {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

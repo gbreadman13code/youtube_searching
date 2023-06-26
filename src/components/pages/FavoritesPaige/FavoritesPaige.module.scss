@@ -1,0 +1,36 @@
+.search_page_wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.favorite_page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  height: 100%;
+
+  h1 {
+    font-size: 36px;
+  }
+  // div {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  // }
+
+  .favorite_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+
+    border-radius: 10px;
+
+    @media (min-width: 768px) {
+      overflow: hidden;
+    }
+  }
+}

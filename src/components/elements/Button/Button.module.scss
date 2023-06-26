@@ -1,0 +1,22 @@
+.button {
+  font-size: 20px;
+  color: #fff;
+
+  background-color: #1390e5;
+  border-radius: 10px;
+
+  border: none;
+
+  padding: 16px 60px;
+
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    padding: 14px 20px;
+  }
+
+  &.non_separate {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}

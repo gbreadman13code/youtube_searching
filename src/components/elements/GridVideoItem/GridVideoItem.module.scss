@@ -1,0 +1,36 @@
+.item {
+  text-decoration: none;
+  color: inherit;
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    font-weight: 600;
+
+    margin: 8px 0;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+
+  span {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    color: rgba(23, 23, 25, 0.3);
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+}
