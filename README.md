@@ -23,3 +23,10 @@ typescript, generate-token, redux, react-redux, react-router-dom
 email gbreadman13@gmail.com
 instagram gbreadman13
 telegram @gbreadman13
+
+
+P.S.
+Данные для тесторивания входа
+user: gbreadman13@gmail.com, password: 1234
+user: user@test.ru, password: 1234
+user: tadabum@mail.ru, password: 1234
