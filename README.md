@@ -20,8 +20,11 @@ typescript, generate-token, redux, react-redux, react-router-dom
 Контакты разработчиков:
 
 тел. +7 (913) 285-96-93
+
 email gbreadman13@gmail.com
+
 instagram gbreadman13
+
 telegram @gbreadman13
 
 
