@@ -17,18 +17,15 @@ typescript, generate-token, redux, react-redux, react-router-dom
 
 И, как говорится, happy hacking!
 
-Контакты разработчиков:
-
-тел. +7 (913) 285-96-93
-
-email gbreadman13@gmail.com
-
+Контакты разработчиков: <br />
+тел. +7 (913) 285-96-93 <br />
+email gbreadman13@gmail.com <br />
 instagram gbreadman13 <br />
 telegram @gbreadman13
 
 
-P.S.
-Данные для тесторивания входа
-user: gbreadman13@gmail.com, password: 1234
-user: user@test.ru, password: 1234
-user: tadabum@mail.ru, password: 1234
+P.S. <br />
+Данные для тесторивания входа <br />
+user: gbreadman13@gmail.com, password: 1234 <br />
+user: user@test.ru, password: 1234 <br />
+user: tadabum@mail.ru, password: 1234 <br />
