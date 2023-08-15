@@ -23,8 +23,7 @@ typescript, generate-token, redux, react-redux, react-router-dom
 
 email gbreadman13@gmail.com
 
-instagram gbreadman13
-
+instagram gbreadman13 <br />
 telegram @gbreadman13
 
 
